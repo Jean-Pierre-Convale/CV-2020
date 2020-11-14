@@ -1,0 +1,136 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    height:292mm; 
+    width:210mm; 
+    margin: auto;
+    color :rgb(53, 52, 52);
+}
+.tete { 
+    margin: 10px;
+    display: grid;
+    justify-content: center;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+/*-------------------ASIDE-----------------------------*/
+aside {
+    position: relative;
+    width: 100%;
+    justify-self: center;
+    background-color: rgba(1, 68, 122, 0.644);
+}
+img {
+    position: relative;
+    width: 130px;
+    border-radius: 30%;
+    border: solid 1px rgba(0, 132, 255, 0.438);
+}
+.progress {
+    width:70%;
+    background-color: rgba(85, 192, 219, 0.658);
+    padding: 2px;
+    display: grid;
+    justify-self: center;
+    font-size: 12px;
+    border-radius: 3px;
+}
+aside span {
+    padding: 2px;
+    background-color: rgba(51, 85, 179, 0.644);
+    width: 97%;
+    display: grid;
+    justify-self: left;
+    border-radius: 3px;
+}
+aside li {
+    list-style-type: none;
+    display: grid;
+    justify-self: center ;
+}
+aside .anglais {
+    padding: 2px;
+    background-color: rgba(51, 85, 179, 0.644);
+    width: 60%;
+    display: grid;
+    justify-self: left;
+    border-radius: 3px;
+}
+.listes {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 85%;
+    display: grid;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.divers p {
+    text-indent: 20px;
+}
+
+/*-------------------------------CONTAINER-------------------*/
+.container {
+    position: relative;
+    height: 290mm;
+    background-color: rgba(168, 192, 235, 0.137);
+    padding: 20px 20px 0 20px;
+}
+.entete {
+    display: grid;
+    height: 20%;
+    align-content: center;
+}
+.pageUp {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2 {
+    padding: 3px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(0,127,150,0.9) 0%, rgba(2,197,193,0.9) 16%, rgba(2,213,205,0.7539390756302521) 32%, rgba(0,226,212,0.5102415966386555) 48%, rgba(0,239,223,0.2553396358543417) 64%, rgba(0,255,235,0) 80%);
+}
+h4 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.colonnes {
+    position: relative;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    margin-bottom: 20px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.indent {
+   text-indent: 40px;
+   list-style-type: none;
+   font-style: italic;
+}
+ul {
+
+    list-style-type: none;
+}
+li {
+    text-indent: 20px;
+}
